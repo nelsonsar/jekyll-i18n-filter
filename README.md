@@ -3,13 +3,13 @@ Jekyll i18n Filter
 
 **IMPORTANT**
 
-I'm not the creator of this code. This code was originally create by @gacha.
+I'm not the creator of this code. This code was originally create by [@gacha](https://github.com/gacha/).
 I just put it in a repository to be easy to clone. I don't wanna to steal nothing
 from anyone. Just make easier for more folks like me to use it.
 
 The link for the original file is at [gacha's repo](https://github.com/gacha/gacha.id.lv/blob/master/_plugins/i18n_filter.rb).
 
-Thanks @gacha!
+Thanks [@gacha](https://github.com/gacha/)!
 
 Jekyll i18n Filter is an option for localization in your [Jekyll](http://jekyllrb.com) blog.
 
