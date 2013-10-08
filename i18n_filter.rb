@@ -1,13 +1,9 @@
 require 'i18n'
 
-LOCALE = 'lv' # set your locale
+LOCALE = 'lv'
 
-# Create folder "_locales" and put some locale file from https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
 module Jekyll
   module I18nFilter
-    # Example:
-    #   {{ post.date | localize: "%d.%m.%Y" }}
-    #   {{ post.date | localize: ":short" }}
     def localize(input, format=nil)
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
