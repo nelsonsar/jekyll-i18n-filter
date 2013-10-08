@@ -30,6 +30,6 @@ How to use
 
 You can use localize in Jekyll variables like post date. Example:
 
-{{ post.date | localize: "%d/%m/%Y" }}
+```{{ post.date | localize: "%d/%m/%Y" }}```
 
 Eaaaaasy as get drunk!
