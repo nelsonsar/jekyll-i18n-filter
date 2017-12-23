@@ -7,6 +7,7 @@ module Jekyll
     def localize(input, format=nil)
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
+      input = Time.parse(input) if input.is_a?(String)
       I18n.l input, :format => format, :locale => LOCALE
     end
 
